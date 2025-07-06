@@ -13,6 +13,8 @@ return new class extends Migration
             $table->string('nama');
             $table->string('film');
             $table->string('jadwal');
+            $table->integer('jumlah_orang');
+            $table->integer('total_harga');
             $table->timestamps();
         });
     }

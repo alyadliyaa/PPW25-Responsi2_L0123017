@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aluna Theater</title>
+    <title>Welcome to Best-Cinema!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{-- Bootstrap --}}
@@ -58,7 +58,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand" href="#">Aluna Theater</a>
+        <a class="navbar-brand" href="#">Welcome to Best-Cinema!</a>
         <div>
             <a class="btn btn-outline-light me-2" href="{{ route('home') }}">Home</a>
             <a class="btn btn-outline-light" href="{{ route('bookings.index') }}">Lihat Daftar Pemesanan</a>
@@ -68,7 +68,7 @@
 
 <!-- Banner -->
 <div class="container text-center my-4">
-    <img src="https://via.placeholder.com/600x300" alt="Banner Theater" class="img-fluid rounded">
+    <img src="{{ asset('images/bannercinema.jpeg') }}" alt="Banner Theater" class="img-fluid rounded">
     <h2 class="mt-4">Film yang Sedang Tayang</h2>
 </div>
 
